@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>长按保存图片</title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/preview.css"/>
+		<style type="text/css">
+			.photo-content{
+				padding-top: 44px;
+				background: #fff;
+			}
+			.content-padded{
+				margin: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">长按保存图片</h1>
+		</header>
+		<div class="photo-content" style="position: relative;">
+			<div class="content-padded">
+				<p>这是图片放大预览后长按保存图片示例，点击如下图片可全屏预览功能</p>
+				<p>
+					<img src="images/1.jpg" data-preview-src="" data-preview-group="1" />
+				</p>
+				<p>图片全屏预览后，长按预览图片可以保存到本地</p>
+				<p>
+					<img src="images/2.jpg" data-preview-src="" data-preview-group="1" />
+				</p>
+				<p>第三张图片</p>
+				<p>
+					<img src="images/3.jpg" data-preview-src="" data-preview-group="1" />
+				</p>
+			</div>
+		</div>
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.zoom.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mui.previewimage.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/photosave.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
